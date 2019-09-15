@@ -4,6 +4,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 
 def plot_3D_color_space():
+    """ Plots a 3D scatter plot of the color space RGB """
     # 10x10x10 = 1000, works good on my machine, can even increase 20x20x20 = 8000
     r = np.arange(0, 1, 0.1)
     g = np.arange(0, 1, 0.1)
